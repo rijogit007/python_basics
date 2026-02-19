@@ -26,3 +26,23 @@ while True:
 
     print(a)
 
+a.append(58)
+print(a)
+
+a.insert(2,100)
+print(a)
+
+a.remove(1)
+print(a)
+
+a.clear()
+print(a)
+
+a.pop(2)
+print(a)
+
+a.sort()
+print(a)
+
+a.sort(reverse=True)
+print(a)
