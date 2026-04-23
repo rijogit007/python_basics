@@ -11,12 +11,13 @@ def add():
 
 
 
-# def findsum(c,d):#parameter
-#     s=c+d
-#     print(s)
-# findsum(1,2)    #arguments
-# findsum(10,30)    
-# findsum(100,200)    
+def findsum(c,d):#parameter
+    s=c+d
+    print(s)
+findsum(1,2)    #arguments
+findsum(10,30)    
+findsum(100,200)    
+findsum(100,100)    
     
     
         
