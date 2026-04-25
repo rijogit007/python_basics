@@ -42,18 +42,36 @@
 # print(m1.color)
 # print(Mobile.color)
 
-class Student:
-    def __init__(self,name,age,school):
+# class Student:
+#     def __init__(self,name,age,school):
       
-        self.n1=name
-        self.a=age
-        self.school=school
+#         self.n1=name
+#         self.a=age
+#         self.school=school
+#     def info(self):
+        
+#         print("name is",self.n1)   
+#         print("age is",self.a)   
+#         print("school",self.school)   
+        
+# s1=Student("rijo",12,"stphilo")
+
+# s1.info()
+
+class School:             #class
+    def __init__(self,name,age): #init constructor, with self  object, with parameters  if needed
+        self.name=name
+        self.age=age   #instance variable , stored in object
+        
+        
     def info(self):
         
-        print("name is",self.n1)   
-        print("age is",self.a)   
-        print("school",self.school)   
+        print("name is"+self.name)    
+        print("age is"+self.age)    
         
-s1=Student("rijo",12,"stphilo")
+        
+student1= School("rijo",24)
+student2= School("praise",21)
 
-s1.info()
+print(student1.name,student1.age)
+print(student2.name,student2.age)
