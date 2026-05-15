@@ -6,5 +6,5 @@ def deposit():
             myamount=int(myamount)
             if myamount>0:
                 break
-            # else:
-            #     print("Amount must graeter than zero")
+            else:
+                print("Amount must graeter than zero")
